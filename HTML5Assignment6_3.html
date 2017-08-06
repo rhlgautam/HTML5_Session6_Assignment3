@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML5Assignment6.3</title>
+	<style type="text/css">
+		table, th, td {
+		    border: 1px solid black;
+		    border-collapse: collapse;
+		    background-color: aqua;
+		}
+		th, td {
+		    padding: 5px;
+		    text-align: left;
+		}
+		button{
+			background-color: green;
+			padding: 5px;
+			margin-top: 20px;
+			color: white;
+			text-align: center;
+		}
+	</style>
+	<script src="Session6_3.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1>Welcome to Acadgild!!</h1>
+	<table id="t1">
+		<th>Student Name</th>
+		<th>Subject1</th>
+		<th>Subject2</th>
+		<th>Subject3</th>
+		<tr>
+			<td>Rahul</td>
+			<td>25</td>
+			<td>85</td>
+			<td>80</td>
+		</tr>
+	</table>
+	<button onclick="DisplaytResult(25,85,80)">Show Result</button>
+	<p id="result" style="background-color: aqua; font-weight: bold; display: none;"></p>
+</body>
+</html>
